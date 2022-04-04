@@ -405,28 +405,55 @@
                 </div>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Tugas1</title>
-</head>
-<body>
-<table width=40% height=60% bgcolor="#C4C4C4">
-<tr><td colspan="2" bgcolor=white>
-<table bgcolor=white width=100% height=50%>
-<tr><td><textarea cols="`100" rows=5 PLACEHOLDER="Enter Your coment...."></textarea><br>
-Coment as: <select name="select" >
-<option>Select Profil...</option>
-<tr><td height=7px></td></tr>
-</td></tr>
-</table>
-</td>
-</tr>
-<tr><td width=80px><input type=button value=PUBLISH  style=color:white;background-color:blue> </td><td>
-<input type=button value=PREVIEW style=background-color:blue>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
 
-</table>
+<style type="text/css">
+<!--
+.style1 {
+ font-family: Geneva, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<form action="kirim_buku-tamu.php" method="post" name="buku-tamu" class="style1" id="buku-tamu">
+  <table width="433" border="0" align="center" cellpadding="4" cellspacing="2">
+    <tr>
+      <td width="118"><div align="right">Nama</div></td>
+      <td width="293"><input name="nama" type="text" id="nama" size="40" /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Email</div></td>
+      <td><input name="email" type="text" id="email" size="40" /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Jenis Kelamin</div></td>
+      <td><select name="select">
+        <option value="1" selected="selected">Laki-laki</option>
+        <option value="2">Perempuan</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td><div align="right">Komentar</div></td>
+      <td><textarea name="komentar" cols="30" rows="5" id="komentar"></textarea></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input name="kirim" type="submit" id="kirim" value="Kirim" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  <br />
+</form>
 </body>
-</html>
-                            </div>
+</html                 </div>
                         </div>
                     </div>
                 </div>
